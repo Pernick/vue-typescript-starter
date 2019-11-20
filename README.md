@@ -1,29 +1,18 @@
-# vue-typescript-starter
+# Vue TypeScript Starter
 
-## Project setup
-```
-yarn install
-```
+- Starter project for Vue.js application with TypeScript and TSLint for formatting and linting
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Setup
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### TSLint
 
-### Run your tests
+- TSLint rules can be found [here](https://palantir.github.io/tslint/rules/)
+- Install VSCode plugin for TSLint
+- add fix on save:
 ```
-yarn run test
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  }
+}
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

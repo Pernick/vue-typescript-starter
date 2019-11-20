@@ -10,10 +10,14 @@
   },
   "rules": {
     "indent": [true, "spaces", 2],
+    "semicolon": [true, "never"],
     "interface-name": false,
+    "no-empty-interface": false,
     "no-consecutive-blank-lines": false,
     "object-literal-sort-keys": false,
     "ordered-imports": false,
-    "quotemark": [true, "single"]
+    "quotemark": [true, "single"],
+    "arrow-return-shorthand": true,
+    "arrow-parens": false
   }
 }
